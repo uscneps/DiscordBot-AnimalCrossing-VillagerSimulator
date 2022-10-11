@@ -48,9 +48,7 @@ Start the server, after created config.json or env file with token,client id, gu
 
 <img width="392" alt="Screenshot 2022-10-11 at 17 39 43" src="https://user-images.githubusercontent.com/38867931/195138925-34cb9e05-6bcb-4a19-a76a-7744fbdcb141.png">
 
-### help command
 
-https://user-images.githubusercontent.com/38867931/195139041-3bf071b7-691e-4412-a065-4fe243367eb3.mov
 
 
 
