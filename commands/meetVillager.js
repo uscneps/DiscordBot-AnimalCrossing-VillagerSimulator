@@ -1,6 +1,7 @@
 const { request } = require('undici');
 const { SlashCommandBuilder } = require('discord.js');
 const { EmbedBuilder } = require('discord.js');
+let cooldown = new Set();
 
 module.exports = {
     data: new SlashCommandBuilder()
