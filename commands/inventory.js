@@ -16,7 +16,7 @@ module.exports = {
             const exampleEmbed = new EmbedBuilder()
                 .setColor(0xFFFF00)
                 .setTitle('Inventary')
-                .setDescription(`${userItems}`)
+                .setDescription(`${userItems.join('\n')}`)
                 .setThumbnail('https://media0.giphy.com/media/ZCHNyCrwrfIqRAPWK9/200w.gif?cid=82a1493b0n39j0t9gi0015gem8b893clpdfl2wwsb64kvrwf&rid=200w.gif&ct=s')
             interaction.reply({ embeds: [exampleEmbed] });
         }
