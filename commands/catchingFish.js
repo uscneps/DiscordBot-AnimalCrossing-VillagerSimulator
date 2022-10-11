@@ -1,8 +1,9 @@
 const { request } = require('undici');
 const { SlashCommandBuilder } = require('discord.js');
 const { EmbedBuilder } = require('discord.js');
-let cooldown = new Set();
+const { userInventary } = require('./catchingBugs.js');
 
+const cooldown = new Set();
 
 module.exports = {
     data: new SlashCommandBuilder()
@@ -10,16 +11,21 @@ module.exports = {
         .setDescription('find a fish to catch'),
     async execute(interaction) {
         if (cooldown.has(interaction.user.id)) {
-            interaction.reply("You can only use this command 1 time every 30 minutes!");
-        } else {
+            interaction.reply('You can only use this command 1 time every 30 minutes!');
+        }
+        else {
+            if (!userInventary.has(interaction.user.id)) {
+                userInventary.set(interaction.user.id, []);
+            }
+            console.log(userInventary);
             cooldown.add(interaction.user.id);
             setTimeout(() => {
-                talkedRecently.delete(interaction.user.id);
+                cooldown.delete(interaction.user.id);
             }, 1800000);
             const fishFound = Math.floor(Math.random() * 81);
             const seaCreature = await request(`https://acnhapi.com/v1/fish/${fishFound}`);
-            const { image_uri, name, price, icon_uri, } = await getJSONResponse(seaCreature.body);
-            //acccess catch-phrase
+            const { image_uri, name, price, icon_uri } = await getJSONResponse(seaCreature.body);
+            // acccess catch-phrase
             const Accessdescription = await request(`https://acnhapi.com/v1/fish/${fishFound}`);
             const description = await getJSONResponse(Accessdescription.body);
             const exampleEmbed = new EmbedBuilder()
@@ -32,7 +38,8 @@ module.exports = {
                     { name: 'Japanese Name', value: `${name['name-JPja']}`, inline: true },
                 )
                 .setImage(image_uri)
-                .setFooter({ text: description['museum-phrase'], });
+                .setFooter({ text: description['museum-phrase'] });
+            userInventary.get(interaction.user.id).push(name['name-USen']);
             interaction.reply({ embeds: [exampleEmbed] });
         }
 

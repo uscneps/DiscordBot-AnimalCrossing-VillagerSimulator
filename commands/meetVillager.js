@@ -1,7 +1,8 @@
 const { request } = require('undici');
 const { SlashCommandBuilder } = require('discord.js');
 const { EmbedBuilder } = require('discord.js');
-let cooldown = new Set();
+// TODO sometimes 1/3 airdop an item to the user, to use in the tomnook shop
+
 
 module.exports = {
     data: new SlashCommandBuilder()
@@ -11,7 +12,6 @@ module.exports = {
         const villagerFound = Math.floor(Math.random() * 414);
         const villager = await request(`https://acnhapi.com/v1/villagers/${villagerFound}`);
         const { image_uri, name, icon_uri, species, gender, birthday } = await getJSONResponse(villager.body);
-        //acccess catch-phrase
         const Accessdescription = await request(`https://acnhapi.com/v1/villagers/${villagerFound}`);
         const description = await getJSONResponse(Accessdescription.body);
         const exampleEmbed = new EmbedBuilder()

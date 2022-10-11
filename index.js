@@ -1,4 +1,5 @@
 const fs = require('node:fs');
+// const mongoose = require('mongoose');
 const path = require('node:path');
 const { Client, GatewayIntentBits, Collection } = require('discord.js');
 const { token } = require('./config.json');
@@ -33,6 +34,8 @@ for (const file of commandFiles) {
     // With the key as the command name and the value as the exported module
     client.commands.set(command.data.name, command);
 }
+
+
 
 client.on('interactionCreate', async interaction => {
     if (!interaction.isChatInputCommand()) return;
