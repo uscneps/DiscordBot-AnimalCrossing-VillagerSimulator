@@ -13,7 +13,19 @@
 
 
 ## About The Project
-NOT-OFFICIAL bot created for fun and learning purposes, that simulates animal crossing new horizon villager. User can catch a fish, or bug or meeting villagers, and having a serverless inventory, it's still in development if you wanna contribute text me 🌻 !
+NOT-OFFICIAL bot created for fun and learning purposes, that simulates animal crossing new horizon villager gameplay through discord commands. User can fish, catch bugs, meeting villagers, check inventory and so on. 
+
+## next updates
+- [ ] Connect a DB (righ now is serverless)
+- [ ] Villager could airdrop items
+- [ ] Lost & Found box 
+- [ ] tomnook shop & Bell System
+- [ ] build house
+- [ ] trade beetween users in the discord channeò 
+
+It's still in development, if you wanna contribute text me 🌻 !
+
+
 
 
 ### Built With
@@ -31,24 +43,55 @@ Start the server, after created config.json or env file with token,client id, gu
 
 ## Usage
 
-### Fishing more than 80 Fish every 30m (to simulate seaching phase)
-![Untitled design copy](https://user-images.githubusercontent.com/38867931/195138845-09f0bee2-a006-4da4-bfc4-d004ed8f3b62.png)
+### Fishing more than 80 Fish every 30 minutes (to simulate seaching phase)
+
+
+<div align="center">
+  <a>
+  
+GoldFish             |  Tuna
+:-------------------------:|:-------------------------:
+![](https://user-images.githubusercontent.com/38867931/195295616-73dc4e3a-626a-4c0b-b2e3-b783541b993a.png)  |  ![](https://user-images.githubusercontent.com/38867931/195295609-16cc1274-bf60-496b-9761-fb4351372fce.png)
+
+  </a>
+</div>
+ <br />
 
   
-### Catching more than 79 Bugs every 30m 
+### Catching more than 79 Bugs every 30 minutes 
 
-![Untitled design](https://user-images.githubusercontent.com/38867931/195138866-a412852e-6f15-46f4-adfa-bdad94f8ac81.png)
-
-
-### Meet more than 400 Villagers every 30m , in the next relase will airdrop items (sometimes)
-
-![Untitled design copy 2](https://user-images.githubusercontent.com/38867931/195138881-0d8a59e3-0ddd-4624-bdf1-0e6af7419e89.png)
-
-### open invetory to see collected items 
-
-<img width="392" alt="Screenshot 2022-10-11 at 17 39 43" src="https://user-images.githubusercontent.com/38867931/195138925-34cb9e05-6bcb-4a19-a76a-7744fbdcb141.png">
+<div align="center">
+  <a>
+  
+Atlas Moth             |  Beetle
+:-------------------------:|:-------------------------:
+![](https://user-images.githubusercontent.com/38867931/195288061-90029710-7d84-4d6e-a963-004da234f44e.png)  |  ![](https://user-images.githubusercontent.com/38867931/195288068-e06551e9-2d2f-4377-91ff-cf8ee330b763.png)
 
 
+  </a>
+</div>
+ <br />
+
+
+### Meet more than 400 Villagers , in the next relase will airdrop items (sometimes)
+
+<div align="center">
+  <a>
+  
+Punchy             |  Tex 
+:-------------------------:|:-------------------------:
+![](https://user-images.githubusercontent.com/38867931/195286125-27efc819-a762-43eb-9021-21b452d16b61.png)  |  ![](https://user-images.githubusercontent.com/38867931/195286139-61784473-c0ef-44af-a5a3-34ed6482508b.png)
+
+  </a>
+</div>
+ <br />
+
+
+### system features
+
+Inventory             |  Help Command 
+:-------------------------:|:-------------------------:
+![](https://user-images.githubusercontent.com/38867931/195138925-34cb9e05-6bcb-4a19-a76a-7744fbdcb141.png)  |  ![](https://user-images.githubusercontent.com/38867931/195283579-558fcdbd-f75a-4c24-8cb1-93b0f119b102.png)
 
 
 
@@ -75,7 +118,6 @@ Don't forget to give the project a star! Thanks again! ❤️
 ## Contact
 
 Matt - [github](https://github.com/MatteoLeonesi) - matteo.leonesi@gmail.com
-
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
