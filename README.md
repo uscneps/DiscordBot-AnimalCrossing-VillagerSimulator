@@ -9,7 +9,7 @@
   </a>
 </div>
 
-
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
 
 ## About The Project
 NOT-OFFICIAL bot created for fun and learning purposes, that simulates animal crossing new horizon villager gameplay through discord commands. User can fish, catch bugs, meeting villagers, check inventory and so on. 
