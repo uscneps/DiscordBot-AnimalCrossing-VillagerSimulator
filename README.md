@@ -4,9 +4,8 @@
 <br />
 <div align="center">
   <a>
-  
-![WhoppingPassionateGalapagospenguin-max-1mb](https://user-images.githubusercontent.com/38867931/195134000-4b8e89bd-035a-4eb2-ae94-c96513ee61da.gif)
 
+<img src="https://user-images.githubusercontent.com/38867931/195303627-9a5c48c1-75a7-484b-9003-cd5ec15fdc6f.gif" width="300" alt="tomnook">
   </a>
 </div>
 
