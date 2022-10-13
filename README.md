@@ -20,7 +20,7 @@ NOT-OFFICIAL bot created for fun and learning purposes, that simulates animal cr
 - [ ] Lost & Found box 
 - [ ] tomnook shop & Bell System
 - [ ] build house
-- [ ] trade beetween users in the discord channeò 
+- [ ] trade beetween users in the discord channel 
 
 It's still in development, if you wanna contribute text me 🌻 !
 
