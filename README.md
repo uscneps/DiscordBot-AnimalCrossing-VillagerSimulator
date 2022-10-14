@@ -9,7 +9,7 @@
   </a>
 </div>
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![version](https://img.shields.io/badge/version-1.0.1_dev-yellow.svg)](https://semver.org) [![Commit Activity](https://img.shields.io/github/commit-activity/m/MatteoLeonesi/DiscordBot-AnimalCrossing-VillagerSimulator)](https://github.com/MatteoLeonesi/DiscordBot-AnimalCrossing-VillagerSimulator)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![version](https://img.shields.io/badge/version-1.0.1-yellow.svg)](https://semver.org) [![Commit Activity](https://img.shields.io/github/commit-activity/m/MatteoLeonesi/DiscordBot-AnimalCrossing-VillagerSimulator)](https://github.com/MatteoLeonesi/DiscordBot-AnimalCrossing-VillagerSimulator)
 
 ## About The Project
 NOT-OFFICIAL bot created for fun and learning purposes, that simulates animal crossing new horizon villager gameplay through discord commands. User can fish, catch bugs, meeting villagers, check inventory and so on. 
@@ -20,7 +20,7 @@ NOT-OFFICIAL bot created for fun and learning purposes, that simulates animal cr
 - ❌ Lost & Found box 
 - ❌ tomnook shop & Bell System
 - ❌ build house
-- ❌ trade beetween users in the discord channl
+- ❌ trade beetween users in the discord channel
 
 It's still in development, if you wanna contribute text me 🌻 !
 
