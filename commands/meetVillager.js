@@ -11,8 +11,8 @@ module.exports = {
         const villagerFound = Math.floor(Math.random() * 414);
         const villager = await request(`https://acnhapi.com/v1/villagers/${villagerFound}`);
         const { image_uri, name, icon_uri, species, gender, birthday } = await getJSONResponse(villager.body);
-        const Accessdescription = await request(`https://acnhapi.com/v1/villagers/${villagerFound}`);
-        const description = await getJSONResponse(Accessdescription.body);
+        const description = await getJSONResponse(villager.body);
+        
         const exampleEmbed = new EmbedBuilder()
             .setColor(0x0099FF)
             .setTitle(name['name-USen'])

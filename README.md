@@ -9,26 +9,24 @@
   </a>
 </div>
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![version](https://img.shields.io/badge/version-1.0.1_dev-yellow.svg)](https://semver.org) [![Commit Activity](https://img.shields.io/github/commit-activity/m/MatteoLeonesi/DiscordBot-AnimalCrossing-VillagerSimulator)](https://github.com/MatteoLeonesi/DiscordBot-AnimalCrossing-VillagerSimulator)
 
 ## About The Project
 NOT-OFFICIAL bot created for fun and learning purposes, that simulates animal crossing new horizon villager gameplay through discord commands. User can fish, catch bugs, meeting villagers, check inventory and so on. 
 
 ## next updates
-- [ ] Connect a DB (righ now is serverless)
-- [ ] Villager could airdrop items
-- [ ] Lost & Found box 
-- [ ] tomnook shop & Bell System
-- [ ] build house
-- [ ] trade beetween users in the discord channeò 
+- ✅ Connect a DB (righ now is serverless)
+- ❌ Villager could airdrop items
+- ❌ Lost & Found box 
+- ❌ tomnook shop & Bell System
+- ❌ build house
+- ❌ trade beetween users in the discord channl
 
 It's still in development, if you wanna contribute text me 🌻 !
 
 
-
-
 ### Built With
-* [DiscordJs](https://discord.js.org/#/)
+* [Discord.js](https://discord.js.org/#/)
 * [acnhapi](http://acnhapi.com/)
 * [undici](https://github.com/nodejs/undici)
 
@@ -111,12 +109,10 @@ Don't forget to give the project a star! Thanks again! ❤️
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 
 ## Contact
 
 Matt - [github](https://github.com/MatteoLeonesi) - matteo.leonesi@gmail.com
 
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right"><a href="#top">back to top</a></p>
