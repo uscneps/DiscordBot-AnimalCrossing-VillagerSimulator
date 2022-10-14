@@ -18,6 +18,8 @@ module.exports = {
         let userData = await DBUser.findOne({ id: interaction.user.id });
         if (!userData) userData = new DBUser({ id: interaction.user.id }); await userData.save();
 
+        if(!interaction.client.cooldowns[interaction.user.id]) interaction.client.cooldowns[interaction.user.id] = {};
+
         try {
             await command.execute(interaction, userData);
         }
