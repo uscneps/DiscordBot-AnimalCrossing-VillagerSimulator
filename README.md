@@ -15,12 +15,14 @@
 NOT-OFFICIAL bot created for fun and learning purposes, that simulates animal crossing new horizon villager gameplay through discord commands. User can fish, catch bugs, meeting villagers, check inventory and so on. 
 
 ## next updates
+
 - ✅ Connect a DB
 - ❌ Villager could airdrop items
 - ❌ Lost & Found box 
 - ❌ tomnook shop & Bell System
 - ❌ build house
 - ❌ trade beetween users in the discord channel
+
 
 It's still in development, if you wanna contribute text me 🌻 !
 
