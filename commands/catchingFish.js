@@ -1,6 +1,5 @@
 const { request } = require('undici');
-const { SlashCommandBuilder } = require('discord.js');
-const { EmbedBuilder } = require('discord.js');
+const { SlashCommandBuilder, EmbedBuilder } = require('discord.js');
 const { userInventary } = require('./catchingBugs.js');
 
 const cooldown = new Set();

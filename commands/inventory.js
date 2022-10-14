@@ -1,5 +1,4 @@
-const { SlashCommandBuilder } = require('discord.js');
-const { EmbedBuilder } = require('discord.js');
+const { SlashCommandBuilder, EmbedBuilder } = require('discord.js');
 const { userInventary } = require('./catchingBugs.js');
 
 module.exports = {
@@ -17,9 +16,8 @@ module.exports = {
                 .setColor(0xFFFF00)
                 .setTitle('Inventary')
                 .setDescription(`${userItems.join('\n')}`)
-                .setThumbnail('https://media0.giphy.com/media/ZCHNyCrwrfIqRAPWK9/200w.gif?cid=82a1493b0n39j0t9gi0015gem8b893clpdfl2wwsb64kvrwf&rid=200w.gif&ct=s')
+                .setThumbnail('https://media0.giphy.com/media/ZCHNyCrwrfIqRAPWK9/200w.gif?cid=82a1493b0n39j0t9gi0015gem8b893clpdfl2wwsb64kvrwf&rid=200w.gif&ct=s');
             interaction.reply({ embeds: [exampleEmbed] });
         }
     },
 };
-

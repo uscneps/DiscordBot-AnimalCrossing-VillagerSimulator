@@ -35,8 +35,6 @@ for (const file of commandFiles) {
     client.commands.set(command.data.name, command);
 }
 
-
-
 client.on('interactionCreate', async interaction => {
     if (!interaction.isChatInputCommand()) return;
 
@@ -55,4 +53,3 @@ client.on('interactionCreate', async interaction => {
 
 // Login to Discord with your client's token
 client.login(token);
-

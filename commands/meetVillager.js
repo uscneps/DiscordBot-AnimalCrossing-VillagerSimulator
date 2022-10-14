@@ -1,6 +1,5 @@
 const { request } = require('undici');
-const { SlashCommandBuilder } = require('discord.js');
-const { EmbedBuilder } = require('discord.js');
+const { SlashCommandBuilder, EmbedBuilder } = require('discord.js');
 // TODO sometimes 1/3 airdop an item to the user, to use in the tomnook shop
 
 
