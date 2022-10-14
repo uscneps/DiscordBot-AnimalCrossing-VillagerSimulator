@@ -2,7 +2,7 @@ const fs = require('node:fs');
 const path = require('node:path');
 const { REST, Routes } = require('discord.js');
 // guildId (rightclikc on server > copy id) is optional if you want to deploy to a specific server
-const { clientId, guildId, token } = require('./config.json');
+const { clientId, token } = require('./config.json');
 
 // Remember to run node deploy-commands.js to register your commands!
 const commands = [];
@@ -19,6 +19,6 @@ for (const file of commandFiles) {
 // You only need to run node deploy-commands.js once. You should only run it again if you add or edit existing commands.
 const rest = new REST({ version: '10' }).setToken(token);
 
-rest.put(Routes.applicationGuildCommands(clientId, guildId), { body: commands })
+rest.put(Routes.applicationCommands(clientId), { body: commands })
     .then((data) => console.log(`Successfully registered ${data.length} application commands.`))
     .catch(console.error);
