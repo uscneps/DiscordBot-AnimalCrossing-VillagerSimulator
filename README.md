@@ -17,7 +17,7 @@ NOT-OFFICIAL bot created for fun and learning purposes, that simulates animal cr
 ## next updates
 
 - ✅ Connect a DB
-- ❌ Villager could airdrop items
+- ✅ Villager could airdrop items
 - ❌ Lost & Found box 
 - ❌ tomnook shop & Bell System
 - ❌ build house
