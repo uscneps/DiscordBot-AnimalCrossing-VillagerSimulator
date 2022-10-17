@@ -10,7 +10,7 @@ class Bot extends Client {
         this.commands = new Collection();
         this.cooldowns = {};
 
-        this.DBUser = require('./User');
+        this.DBUser = require('../schemas/User');
         this.config = require('../config.json');
 
         this.DBConn = mongoose.connection;

@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 const { Interaction } = require('discord.js');
-const DBUser = require('../classes/User');
+const DBUser = require('../schemas/User');
 
 module.exports = {
     name: 'interactionCreate',
